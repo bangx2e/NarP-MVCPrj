@@ -12,7 +12,7 @@ int sum = my.sum();%>
 <body>
 	<table>
 		<tr>
-			<td>1~10까지의 합 : </td>
+			<td>1~100까지의 합 : </td>
 
 			<td><%=sum%></td>
 		</tr>
