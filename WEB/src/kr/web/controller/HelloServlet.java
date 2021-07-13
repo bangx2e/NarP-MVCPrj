@@ -14,7 +14,7 @@ public class HelloServlet extends HttpServlet {
 		MyUtil my = new MyUtil();
 		int sum = my.sum();
 		PrintWriter out = resp.getWriter();
-		out.println("<html>");
+		out.println("<html>"); 
 		out.println("<body>");
 		out.println(sum);
 		out.println("</body>");
